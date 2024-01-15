@@ -1,0 +1,131 @@
+/* font-family: 'Mulish'; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish';
+}
+
+header {
+    max-width: 1175px;
+    height: 570px;
+    margin: 50px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-nav-header {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav img {
+    height: 20px;
+    width: 33px;
+}
+
+nav span {
+    color: #FF5400;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FF5400;
+}
+
+.travel-location-banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url(./Images/Banner.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 550px;
+    border-radius: 16px;
+    width: auto;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.travel-location-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.travel-location-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.input-area-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-input-area {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
+
+.input-area-design {
+    display: flex;
+    justify-content: space-around;
+}
+.input-area-design input{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 9px;
+}
+
+.input-area-design select {
+    width: 130px;
+    height: 38px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 9px;
+}
+
+.input-area-design button {
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFFFFF;
+    padding: 9px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
