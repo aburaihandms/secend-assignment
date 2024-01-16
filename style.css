@@ -171,10 +171,88 @@ main {
     cursor: pointer;
     margin-top: 10px;
 }
-.popular-tours-img img{
+
+.popular-tours-img img {
     width: 450px;
     height: 500px;
 }
+
+/* strat choose us section */
+.choose-text {
+    text-align: center;
+}
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-descripiton {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 250px;
+}
+
+.choose-container {
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    margin: 20px 0px;
+    gap: 20px;
+}
+
+.choose-card1 {
+    height: 250px;
+    width: 500px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+
+.choose-card1 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.choose-card2 {
+    height: 250px;
+    width: 500px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(193, 251, 99, 0.05);
+    padding: 20px;
+}
+
+.choose-card2 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.choose-card3 {
+    height: 150px;
+    width: 500px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(99, 203, 251, 0.05);
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.choose-card3 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+
+
 
 /* ---------------------------------responsive area --------------------------------------*/
 @media screen and (max-width:600px) {
@@ -222,27 +300,52 @@ main {
     nav>ul {
         display: none;
     }
+
     .Our-Popular-Tours {
         flex-direction: column;
         width: 330px;
     }
-    .popular-tours-img img{
+
+    .popular-tours-img img {
         width: 330px;
         height: 340px;
         display: flex;
     }
-    .popular-tours-img{
+
+    .popular-tours-img {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .popular-tours-title {
         font-size: 20px;
         font-weight: 800;
     }
+
     .popular-tours-descripiton {
         font-size: 14px;
         font-weight: 400;
     }
+    .choose-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .choose-title {
+        color: #131318;
+        font-size: 20px;
+    }
+    
+    .choose-descripiton {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        width: 330px;
+        height: 50px;
+    }
+    .choose{
+        margin-top: 1000px;
+        width: 330px;
+    }
+    
 
 }
